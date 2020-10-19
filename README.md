@@ -23,6 +23,16 @@ npm install
 (if required: sudo) npm link
 ```
 
+Now, your homebridge should be able to find and load the plugin called 'homebridge-coffee-machine-switch'.
+Then alter your configuration. Into the accessory section add an accessory as follows: 
+```
+{
+  "name":"Rancilio Silvia"
+  "accessory":"CoffeeMachineSwitch"
+}
+```
+(I know. It is more kind of a button. But I'm just too lazy to change that)
+
 ## Hardware installation
 Please check out page 32 of the [manual](https://www.ranciliogroupna.com/filebin/images/Downloadables/User_Manuals/Homeline/Silvia_User_Manual_2017.PDF).
 
